@@ -1,0 +1,30 @@
+.Nav {
+  margin: 16px 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+
+    padding: 0;
+    border-radius: 8px;
+
+    list-style: none;
+    background: #818181;
+
+    li {
+      padding: 8px 12px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.Counter {
+  width: 500px;
+  padding: 8px;
+  border-radius: 8px;
+
+  background: #818181;
+  font-size: 18px;
+  color: #fff;
+
+  .Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
